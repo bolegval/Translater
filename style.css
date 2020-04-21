@@ -1,0 +1,65 @@
+@import "https://fonts.googleapis.com/css?family=Ubuntu:400,500&subset=latin,cyrillic";
+
+/* html, body {
+  width: 100%; height: 100%;
+}
+body {
+  font-family: 'Ubuntu', serif; font-size: 36px;
+  background: #00f; color: #fff;
+}
+*/
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  font-family: "Ubuntu", serif;
+  font-size: 28px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.translate {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.select__language {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.translate__enter,
+.tanslate__result {
+  margin: 0 20px;
+}
+
+.enter__text,
+.result__text {
+  width: 450px;
+  min-height: 150px;
+  border: 2px solid #1dafd6;
+  border-radius: 3px;
+  padding: 0 15px;
+}
+
+p {
+  font-size: 16px;
+}
+
+.translate__btn {
+  padding: 5px;
+  background-color: #10ffe4;
+  outline: none;
+  cursor: pointer;
+}
